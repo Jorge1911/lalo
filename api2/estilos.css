@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 25px;
+    color: rgb(243, 34, 34);
+    text-align: center;
+}
+#Resultado{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows:minmax(200px,auto);
+    gap: 20px;
+}
+button{
+    background: #0000;
+    color: rgb(56, 170, 94);
+    padding:12px;
+}
+button:hover{
+    border: 2px solid rgb(221, 57, 57);
+    transform: scale(2);
+}
+.user{
+    background: #0000;
+    border-radius: 20px;
+    padding: 20px;
+}
+.cajita{
+    width: 400px;
+    height: auto;
+    margin: auto;
+    border-radius: 12px;
+    padding: 10px;
+    background: rgb(54, 180, 159);
+    box-shadow: 0 0 10px black;
+    text-align: justify;
+}

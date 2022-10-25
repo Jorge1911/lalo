@@ -1,0 +1,24 @@
+*¨{
+    margin: 0;
+    
+}
+div{
+    display: block;
+    width: 250px;
+    height: auto;
+    padding: 15px;
+    background: rgb(51, 153, 114);
+    border-radius: 20px;
+    text-align: center;
+    margin: auto;
+ opacity: 1.7;
+}
+button{
+    display: block;
+    margin: auto;
+    padding: 10px;
+    background: rgb(0,35,36);
+background: linear-gradient(90deg, rgba(0,35,36,1) 0%, rgba(121,119,9,1) 35%, rgba(0,212,255,1) 100%);
+    color: aquamarine;
+    font-size: 15px;
+}
