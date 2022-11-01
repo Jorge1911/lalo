@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    background-color: green;
+    background-image: url("https://www.clarin.com/img/2020/08/22/CcSKfItI1_360x240__1.jpg");
+    background-size: 1800px;
+
+}
+#resultado{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows:auto;
+    gap: 20px  10px;
+}
+nav{
+    color: rgb(16, 180, 79);
+    opacity: 0.7;
+}
+h1{
+    text-decoration-color: antiquewhite;
+}
